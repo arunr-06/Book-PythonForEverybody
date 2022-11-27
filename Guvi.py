@@ -15,6 +15,12 @@
 # d = max(a, b, c)
 # print(d)
 
-a = int(input())
-b = (a * (a+1))/2
-print(int(b))
+# a = int(input())
+# b = (a * (a+1))/2
+# print(int(b))
+
+a = 'applepp'
+b = a.finD
+print(b)
+
+
