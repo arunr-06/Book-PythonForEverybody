@@ -1,3 +1,4 @@
+"""""
 # find the number of unique words in a file
 
 shakes = open('romeo.txt')
@@ -32,10 +33,36 @@ for i in range(len(b)):
         continue
     else:
         #print('not there')
-        d.append(b[i])
+        d.append(e)
         #print(d)
         count = count + 1
 d.sort()
 print(d)
 print(count)
+
+
+# Parsing the line
+fhand = open('mbox-short.txt')
+for line in fhand:
+    line1 = line.rstrip()
+    if line1.startswith('From '):
+        line2 = line1.split()
+        print(line2[1])
+    else:
+        continue
+
+"""""
+
+#maximum and minimum number in a list:
+
+list1 = list()
+while True:
+    line = input('Enter the number\n')
+    if line == 'done':
+        break
+    elif not list1:
+        list1.append(line)
+    else:
+        list1.append(line)
+print(list1, max(list1), min(list1))
 
