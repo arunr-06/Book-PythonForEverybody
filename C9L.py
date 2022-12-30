@@ -1,5 +1,3 @@
-"""""
-
 eng2sp = dict
 eng2sp = {'one': 'two', 'two': 'dos'}
 print(eng2sp)
@@ -63,7 +61,6 @@ for i in ant:
     if ant[i] > 5:
         print(i, ant.get(i, 0))
 
-"""""
 
 ant = {'b': 3, 'e': 4, 'x': 5, 'g': 6}
 new_list = list()
